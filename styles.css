@@ -1,0 +1,250 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+/*ELEMENTS*/
+
+* {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: center;
+  background-color: hsl(210, 14%, 3%); ;
+  
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  width: 100%;
+
+}
+
+header nav .logo {
+  width: 65%;
+
+}
+
+header nav .logo {
+  width: 55%;
+
+}
+
+header nav .logo .box-logo {
+  width: 130px;
+  height: 32px;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+
+}
+
+header nav .logo .box-logo:hover {
+  border: 1px solid #eb0f0f;
+
+}
+
+header nav .logo .box-logo a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+header nav ul {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header nav ul li {
+  list-style: none;
+
+}
+
+header nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0.5rem;
+  
+}
+
+header nav ul li a:hover {
+  font-weight: 700;
+
+}
+
+#section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+
+}
+
+#section .box-left h1 {
+  font-weight: 200;
+  font-size: 2.3rem;
+  margin-top: 0;
+  margin-left: 4rem;
+  letter-spacing: 0.1rem;
+}
+
+#section .box-left p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-left: 4rem;
+  
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  opacity: 0.6;
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+
+}
+
+.menu-open {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+
+}
+
+.fa-bars {
+  display: none;
+
+}
+
+.box-read-more {
+  margin-left: 4rem;
+  
+}
+
+.box-read-more a {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+}
+
+.fa-long-arrow-alt-right {
+  align-items: center;
+  margin-left: 6px;
+  font-size: 1.2rem;
+  
+}
+
+.box-left {
+  width: 45%;
+}
+
+.box-left h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-left: 4rem;
+ 
+}
+
+.box-left p {
+   font-size: 1.1rem;
+  
+}
+
+.box-right {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.box-right .image .img-1 {
+  width: 50vw;
+  margin: 0 auto;
+  
+}
+
+.person {
+  background-color: hsl(210, 14%, 3%);
+  align-self: flex-end;
+  width: 45%;
+  height: fit-content;
+  margin-top:-3rem;
+   
+}
+
+.person .img-2 {
+  height: 60px;
+  border-radius:100%;
+  margin-left:1.5rem;
+  margin-top: 0.5rem;
+}
+
+.person-info {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-left: 8rem;
+
+}
+
+.person-info .name {
+  margin-top:-3rem;
+  margin-bottom: 0;
+ 
+}
+
+.person-info p {
+  font-size: .9rem ;
+  
+}
+  
+.person .title  {
+  text-align: center; 
+
+}
+
+.person .title  a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  text-decoration: underline;
+      
+}
+
+
+
+
+
+  
